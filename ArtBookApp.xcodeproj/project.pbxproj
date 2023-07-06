@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2A2EE62A271D7300BCCDA4 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A2EE52A271D7300BCCDA4 /* DetailsVC.swift */; };
+		BE5D68292A27E1370046EBC2 /* Ekran Resmi 2023-05-31 23.09.14.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5D68282A27E1370046EBC2 /* Ekran Resmi 2023-05-31 23.09.14.png */; };
+		BE5D8FD52A23DA8B00CD421B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D8FD42A23DA8B00CD421B /* AppDelegate.swift */; };
+		BE5D8FD72A23DA8B00CD421B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D8FD62A23DA8B00CD421B /* SceneDelegate.swift */; };
+		BE5D8FD92A23DA8B00CD421B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D8FD82A23DA8B00CD421B /* ViewController.swift */; };
+		BE5D8FDC2A23DA8B00CD421B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5D8FDA2A23DA8B00CD421B /* Main.storyboard */; };
+		BE5D8FDF2A23DA8B00CD421B /* ArtBookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE5D8FDD2A23DA8B00CD421B /* ArtBookApp.xcdatamodeld */; };
+		BE5D8FE12A23DA8C00CD421B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5D8FE02A23DA8C00CD421B /* Assets.xcassets */; };
+		BE5D8FE42A23DA8C00CD421B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5D8FE22A23DA8C00CD421B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE2A2EE52A271D7300BCCDA4 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		BE5D68282A27E1370046EBC2 /* Ekran Resmi 2023-05-31 23.09.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2023-05-31 23.09.14.png"; sourceTree = "<group>"; };
+		BE5D8FD12A23DA8B00CD421B /* ArtBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5D8FD42A23DA8B00CD421B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE5D8FD62A23DA8B00CD421B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE5D8FD82A23DA8B00CD421B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE5D8FDB2A23DA8B00CD421B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE5D8FDE2A23DA8B00CD421B /* ArtBookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtBookApp.xcdatamodel; sourceTree = "<group>"; };
+		BE5D8FE02A23DA8C00CD421B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE5D8FE32A23DA8C00CD421B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE5D8FE52A23DA8C00CD421B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5D8FCE2A23DA8B00CD421B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5D8FC82A23DA8B00CD421B = {
+			isa = PBXGroup;
+			children = (
+				BE5D8FD32A23DA8B00CD421B /* ArtBookApp */,
+				BE5D8FD22A23DA8B00CD421B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5D8FD22A23DA8B00CD421B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D8FD12A23DA8B00CD421B /* ArtBookApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5D8FD32A23DA8B00CD421B /* ArtBookApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D68282A27E1370046EBC2 /* Ekran Resmi 2023-05-31 23.09.14.png */,
+				BE5D8FD42A23DA8B00CD421B /* AppDelegate.swift */,
+				BE5D8FD62A23DA8B00CD421B /* SceneDelegate.swift */,
+				BE2A2EE52A271D7300BCCDA4 /* DetailsVC.swift */,
+				BE5D8FD82A23DA8B00CD421B /* ViewController.swift */,
+				BE5D8FDA2A23DA8B00CD421B /* Main.storyboard */,
+				BE5D8FE02A23DA8C00CD421B /* Assets.xcassets */,
+				BE5D8FE22A23DA8C00CD421B /* LaunchScreen.storyboard */,
+				BE5D8FE52A23DA8C00CD421B /* Info.plist */,
+				BE5D8FDD2A23DA8B00CD421B /* ArtBookApp.xcdatamodeld */,
+			);
+			path = ArtBookApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5D8FD02A23DA8B00CD421B /* ArtBookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5D8FE82A23DA8C00CD421B /* Build configuration list for PBXNativeTarget "ArtBookApp" */;
+			buildPhases = (
+				BE5D8FCD2A23DA8B00CD421B /* Sources */,
+				BE5D8FCE2A23DA8B00CD421B /* Frameworks */,
+				BE5D8FCF2A23DA8B00CD421B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtBookApp;
+			productName = ArtBookApp;
+			productReference = BE5D8FD12A23DA8B00CD421B /* ArtBookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5D8FC92A23DA8B00CD421B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BE5D8FD02A23DA8B00CD421B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BE5D8FCC2A23DA8B00CD421B /* Build configuration list for PBXProject "ArtBookApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5D8FC82A23DA8B00CD421B;
+			productRefGroup = BE5D8FD22A23DA8B00CD421B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5D8FD02A23DA8B00CD421B /* ArtBookApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5D8FCF2A23DA8B00CD421B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5D68292A27E1370046EBC2 /* Ekran Resmi 2023-05-31 23.09.14.png in Resources */,
+				BE5D8FE42A23DA8C00CD421B /* LaunchScreen.storyboard in Resources */,
+				BE5D8FE12A23DA8C00CD421B /* Assets.xcassets in Resources */,
+				BE5D8FDC2A23DA8B00CD421B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5D8FCD2A23DA8B00CD421B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5D8FD92A23DA8B00CD421B /* ViewController.swift in Sources */,
+				BE5D8FD52A23DA8B00CD421B /* AppDelegate.swift in Sources */,
+				BE5D8FDF2A23DA8B00CD421B /* ArtBookApp.xcdatamodeld in Sources */,
+				BE5D8FD72A23DA8B00CD421B /* SceneDelegate.swift in Sources */,
+				BE2A2EE62A271D7300BCCDA4 /* DetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE5D8FDA2A23DA8B00CD421B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5D8FDB2A23DA8B00CD421B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE5D8FE22A23DA8C00CD421B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5D8FE32A23DA8C00CD421B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5D8FE62A23DA8C00CD421B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE5D8FE72A23DA8C00CD421B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5D8FE92A23DA8C00CD421B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVHXX3267W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtBookApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.efekanguvendik.ArtBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE5D8FEA2A23DA8C00CD421B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVHXX3267W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtBookApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.efekanguvendik.ArtBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5D8FCC2A23DA8B00CD421B /* Build configuration list for PBXProject "ArtBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5D8FE62A23DA8C00CD421B /* Debug */,
+				BE5D8FE72A23DA8C00CD421B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5D8FE82A23DA8C00CD421B /* Build configuration list for PBXNativeTarget "ArtBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5D8FE92A23DA8C00CD421B /* Debug */,
+				BE5D8FEA2A23DA8C00CD421B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE5D8FDD2A23DA8B00CD421B /* ArtBookApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE5D8FDE2A23DA8B00CD421B /* ArtBookApp.xcdatamodel */,
+			);
+			currentVersion = BE5D8FDE2A23DA8B00CD421B /* ArtBookApp.xcdatamodel */;
+			path = ArtBookApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE5D8FC92A23DA8B00CD421B /* Project object */;
+}
